@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pritam Mohanta - Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #cccccc;
+    }
+
+    nav {
+      background-color: #333333;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #cccccc;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      border-bottom: 2px solid #cccccc;
+      padding-bottom: 5px;
+    }
+
+    .about p,
+    .skills ul {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+
+    .skills ul {
+      list-style-type: none;
+    }
+
+    .skills ul li {
+      padding: 5px 0;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project-card {
+      background-color: #f4f4f4;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      padding: 20px;
+      flex: 1 1 calc(33% - 40px);
+      text-align: center;
+      transition: box-shadow 0.3s;
+    }
+
+    .project-card:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-card h3 {
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact input,
+    .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .contact button {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1em;
+      transition: background-color 0.3s;
+    }
+
+    .contact button:hover {
+      background-color: #555555;
+    }
+
+    footer {
+      background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #cccccc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pritam Mohanta</h1>
+    <p>Data Scientist | Machine Learning Enthusiast | Engineer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Pritam Mohanta, a data science enthusiast with a background in mechanical engineering. I am skilled in Python, machine learning, and data visualization tools like Tableau and PowerBI. I am passionate about solving real-world problems through data-driven solutions and always eager to learn and grow.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python Programming</li>
+      <li>Data Analysis & Visualization</li>
+      <li>Machine Learning</li>
+      <li>Tableau & PowerBI</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project 1: Sales Prediction</h3>
+      <p>Developed a machine learning model to predict sales based on historical data using Python and Scikit-learn.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 2: Dashboard Analysis</h3>
+      <p>Created an interactive Tableau dashboard to visualize business performance metrics.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 3: Sentiment Analysis</h3>
+      <p>Performed sentiment analysis on customer reviews using NLP techniques in Python.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form action="https://formsubmit.co/samratmohanta7001@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Pritam Mohanta | <a href="https://github.com/pritam-mohanta" target="_blank">GitHub</a> | <a href="mailto:samratmohanta7001@gmail.com">Email</a></p>
+  </footer>
+
+</body>
+</html>
