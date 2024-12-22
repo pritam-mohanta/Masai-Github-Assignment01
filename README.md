@@ -21,3 +21,13 @@ The purpose of this portfolio is to:
 - **HTML**: Structure of the website.
 - **CSS**: Styling with a clean black, white, and gray theme.
 
+## Instraction
+- first create a folder call assignment01
+- create a html file
+- create github repo
+- push assignment01 on github
+- clone assignment01 and name cloneAssignment
+- chage something on cloneAssignment and push it on github repo
+- then go to assignment01 and git pull for update
+- create a issue and also resolve it
+
